@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="my_upload.php" enctype="multipart/form-data"
+		method="post">
+		<p>Name:<input type="text" name="dname" maxlength="10" /></p>
+		
+		<p>Title: 
+			<select name="dtitle">
+				<option value="Designer">Designer</option>
+				<option value="Creative Designer">Creative  Designer</option>
+				<option value="Master  Designer">Master  Designer</option>
+				<option value="Expert  Designer">Expert  Designer</option>
+			</select> 
+		</p> 
+		
+		Photo: <input name="image" size="30" type="file" /> 
+		<input	name="upload" type="submit" value="Next" />
+	</form>
+</body>
+<script src="js/jquery-pack.js"></script>
+<script src="js/jquery.imgareaselect.min.js"></script>
+</html>
